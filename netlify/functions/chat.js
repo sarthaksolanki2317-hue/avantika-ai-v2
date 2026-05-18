@@ -9,7 +9,7 @@ exports.handler = async (event) => {
       parts: [{ text: m.content }]
     }));
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAq82TOrhkys0H4B55iP8s4Vb96kMOXrMM`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCMlPoncE9h2cgWdR4QxZEGJBgkg_EP9gA`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
